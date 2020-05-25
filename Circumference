@@ -1,0 +1,25 @@
+package com.gmail.marialyven;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double r;
+		
+		System.out.println("Input r and press Enter");
+		
+		r = sc.nextDouble();
+		
+		double length;
+		length = 2 * Math.PI * r;
+		
+		System.out.println("The length is " + length);		
+
+	}
+
+}
