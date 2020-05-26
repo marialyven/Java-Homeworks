@@ -1,0 +1,91 @@
+package com.gmail.marialyven12;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of the apartment");
+		int flat = sc.nextInt();
+		   
+
+	        if (flat >= 1 && flat <= 4) {
+	            System.out.println("This apartment is in the entrance one on the first floor" );
+	        } else if (flat > 4 && flat <= 8) {
+	            System.out.println("This apartment is in the entrance one on the second floor" );
+	        } else if (flat > 8 && flat <= 12) {
+	            System.out.println ("This apartment is in the entrance one on the third floor" );
+	        } else if (flat > 12 && flat <= 16) {
+	            System.out.println ("This apartment is in the entrance one on the fourth floor" );
+	        } else if (flat > 16 && flat <= 20) {
+	            System.out.println("This apartment is in the entrance one on the fifth floor" );
+	        } else if (flat > 20 && flat <= 24) {
+	            System.out.println("This apartment is in the entrance one on the sixth floor" );
+	        } else if (flat > 24 && flat <= 28) {
+	            System.out.println("This apartment is in the entrance one on the seventh floor" );
+	        } else if (flat > 28 && flat <= 32) {
+	            System.out.println("This apartment is in the entrance one on the eighth floor" );
+	        } else if (flat > 32 && flat <= 36) {
+	            System.out.println("This apartment is in the entrance one on the ninth floor" );
+	        } else  if (flat > 36 && flat <= 40) {
+	            System.out.println("This apartment is in the entrance two on the first floor" );
+	        } else if (flat > 40 && flat <= 44) {
+	            System.out.println("This apartment is in the entrance two on the second floor");
+	        } else if (flat > 44 && flat <= 48) {
+	            System.out.println("This apartment is in the entrance two on the third floor");
+	        } else if (flat > 48 && flat <= 52) {
+	            System.out.println("This apartment is in the entrance two on the fourth floor");
+	        } else if (flat > 52 && flat <= 56) {
+	            System.out.println("This apartment is in the entrance two on the fifth floor");
+	        } else  if (flat > 56 && flat <= 60) {
+	            System.out.println("This apartment is in the entrance two on the sixth floor");
+	        } else if (flat > 60 && flat <= 64) {
+	            System.out.println("This apartment is in the entrance two on the seventh floor");
+	        } else if (flat > 64 && flat <= 68) {
+	            System.out.println("This apartment is in the entrance two on the eighth floor");
+	        } else if (flat > 68 && flat <= 72) {
+	            System.out.println("This apartment is in the entrance two on the ninth floor");
+	        } else if (flat > 72 && flat <= 76) {
+	            System.out.println("This apartment is in the entrance three on the first floor");
+	        } else if (flat > 76 && flat <= 80) {
+	            System.out.println("This apartment is in the entrance three on the second floor");
+	        } else if (flat > 80 && flat <= 84) {
+	            System.out.println("This apartment is in the entrance three on the third floor");
+	        } else if (flat > 84 && flat <= 88) {
+	            System.out.println("This apartment is in the entrance three on the fourth floor");
+	        } else if (flat > 88 && flat <= 92) {
+	            System.out.println("This apartment is in the entrance three on the fifth floor");
+	        } else if (flat > 92 && flat <= 96) {
+	            System.out.println("This apartment is in the entrance three on the sixth floor");
+	        } else if (flat > 96 && flat <= 100) {
+	            System.out.println("This apartment is in the entrance three on the seventh floor");
+	        } else if (flat > 100 && flat <= 104) {
+	            System.out.println("This apartment is in the entrance three on the eighth floor");
+	        } else if (flat > 104 && flat <= 108) {
+	            System.out.println("This apartment is in the entrance three on the ninth floor");
+	        } else if (flat > 108 && flat <= 112) {
+	            System.out.println("This apartment is in the entrance four on the first floor");
+	        } else if (flat > 112 && flat <= 116) {
+	            System.out.println("This apartment is in the entrance four on the second floor");
+	        } else if (flat > 116 && flat <= 120) {
+	            System.out.println("This apartment is in the entrance four on the third floor");
+	        } else if (flat > 120 && flat <= 124) {
+	            System.out.println("This apartment is in the entrance four on the fourth floor");
+	        } else if (flat > 124 && flat <= 128) {
+	            System.out.println("This apartment is in the entrance four on the fifth floor");
+	        } else if (flat > 128 && flat <= 132) {
+	            System.out.println("This apartment is in the entrance four on the sixth floor");
+	        } else if (flat > 132 && flat <= 136) {
+	            System.out.println("This apartment is in the entrance four on the seventh floor");
+	        } else if (flat > 136 && flat <= 140) {
+	            System.out.println("This apartment is in the entrance four on the eighth floor");
+	        } else if (flat > 140 && flat <= 144) {
+	            System.out.println("This apartment is in the entrance four on the ninth floor");
+	        } else 
+	            System.out.println("This apartment doesn't exist.");
+		
+	}
+	
+}
