@@ -1,0 +1,38 @@
+package com.gmail.marialyven12;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int a;
+		int b;
+		int c;
+		int d;
+		
+		System.out.println("Input 'a' ");
+		a = sc.nextInt();
+		System.out.println("Input 'b' ");
+		b = sc.nextInt();
+		System.out.println("Input 'c' ");
+		c = sc.nextInt();
+		System.out.println("Input 'd' ");
+		d = sc.nextInt();
+		
+		int max = a;
+		if ((b > a) && (b > c) && (b > d)){
+			max = b;
+		}
+		if ((c > b) && (c > a) && (c > d)) {
+			max = c;
+		}
+		if ((d > a) && (d > b) && (d > c)) {
+			max = d;
+		}
+		System.out.println("Max number is " + max);
+	}
+
+}
