@@ -1,0 +1,30 @@
+package com.gmail.marialyven12;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int a;
+		int b;
+		int c;
+		
+		System.out.println("Please enter a");
+		a = sc.nextInt();
+		System.out.println("Please enter b");
+		b = sc.nextInt();
+		System.out.println("Please enter c");
+		c = sc.nextInt();
+		
+		if ((a + b >= c) && (a + c >= b) && (b + c >= a)) {
+			System.out.println("This triangle exists");
+		} else {
+			System.out.println("This triangle does not exist");
+				
+			}
+				
+		}
+	}
