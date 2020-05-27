@@ -1,0 +1,26 @@
+package com.gmail.marialyven12;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner (System.in);
+		int year;
+	
+		System.out.println("Enter any year you want");
+		year = sc.nextInt();
+		
+		if (year % 4 !=0)  {
+	 System.out.println("This is a not leap year and there are 365 days in it");
+	} else if ((year % 100 == 0) && (year % 400 != 0)) {
+		System.out.println("This is a not leap year and there are 365 days in it");
+	} else {
+		System.out.println("This is a leap year and there are 366 days in it");
+	}
+		
+
+}
+	}
