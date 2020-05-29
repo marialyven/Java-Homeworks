@@ -23,7 +23,7 @@ public class Main {
 		d = sc.nextInt();
 		
 		int max = a;
-		if (b > a){
+		if (b > a) {
 			max = b;
 		}
 		if (c > b && c > a)  {
