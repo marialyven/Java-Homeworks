@@ -23,13 +23,13 @@ public class Main {
 		d = sc.nextInt();
 		
 		int max = a;
-		if ((b > a) && (b > c) && (b > d)){
+		if (b > a){
 			max = b;
 		}
-		if ((c > b) && (c > a) && (c > d)) {
+		if (c > b && c > a)  {
 			max = c;
 		}
-		if ((d > a) && (d > b) && (d > c)) {
+		if (d > a && d > b && d > c) {
 			max = d;
 		}
 		System.out.println("Max number is " + max);
