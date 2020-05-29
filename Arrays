@@ -1,0 +1,27 @@
+package com.gmail.marialyven12;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input the length of array");
+		int arrayLength = sc.nextInt();
+		
+		
+		int [] array = new int [arrayLength];
+		for (int i = 0; i < array.length; i++) {
+			System.out.println("Input the element of the array");
+			int a = sc.nextInt();
+			array[i] = a; 
+			}
+		for (int j: array) {
+			System.out.println(j);
+		}
+	}
+}
+
+		
