@@ -1,0 +1,25 @@
+package com.gmail.marialyven12;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a = "computerscience";
+		int b = 47;
+		double c = 33.2;
+		
+		System.out.println(getConcat(a,b,c));
+		
+
+	}
+	
+	public static String getConcat(String a, int b, double c) {
+		String str1 = String.valueOf(b);
+		String str2 = String.valueOf(c);
+		String text =  a + (str1 + str2); 
+		
+		return text;
+	}
+	
+}
