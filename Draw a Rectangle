@@ -1,0 +1,22 @@
+package com.gmail.marialyven12;
+
+public class Main {
+
+	public static void main(String[] args) {
+		drawRectangle(5,7);
+		
+	}
+	public static void drawRectangle(int height, int width) {
+		for (int i = 0; i <= height; i++) {
+			for (int j = 0; j <= width; j++) {
+				if (i == 1 || i == height || j == 1 || j == width) {
+					System.out.print(" * ");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		} 
+	}
+
+}
