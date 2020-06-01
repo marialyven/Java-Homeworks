@@ -1,0 +1,22 @@
+package com.gmail.marialyven12;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int [] array = {2, 7, 19, 33, 47};
+		System.out.println(newString(array));
+
+	}
+	public static String newString (int [] array) {
+		StringBuilder sb = new StringBuilder ("[");
+			for (int t : array) {
+				sb.append(t);
+			 if (t != array.length-1) {
+	            sb.append(",");	            
+			}
+			}
+			sb.append("]");
+			return sb.toString();
+}
+	
+}
