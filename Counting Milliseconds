@@ -1,0 +1,27 @@
+package com.gmail.marialyven12;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Calendar cl = Calendar.getInstance();
+		Date date = cl.getTime();
+		
+		Calendar clTwo = Calendar.getInstance();
+		clTwo.set(Calendar.YEAR, 2020);
+		clTwo.set(Calendar.MONTH, Calendar.MAY);
+		clTwo.set(Calendar.DAY_OF_MONTH, 1);
+		Date dateTwo = clTwo.getTime();
+		
+		long a = date.getTime();
+		long b = dateTwo.getTime();
+		long c = date.getTime() - dateTwo.getTime();
+		
+		System.out.println("Milliseconds from " + date + " to " + dateTwo + " = " + c);
+		
+
+	}
+
+}
