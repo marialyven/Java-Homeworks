@@ -1,0 +1,30 @@
+package com.gmail.marialyven12;
+
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the name fo your file ");
+		String text = sc.nextLine();
+		
+		File myFile = new File(text + "txt");
+		
+		try (PrintWriter pw = new PrintWriter(myFile)) {
+			myFile.createNewFile();
+			String line = sc.nextLine();
+			while (line != "EXIT") {
+				line = sc.nextLine();
+				pw.println(text);
+			}	
+		} catch (IOException e) {
+			System.out.println("Error creation a new file");
+			e.printStackTrace();
+	}
+	}
+}
